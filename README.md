@@ -4,13 +4,14 @@ Processes a video stream from a vehicle dash cam and track the movement of vehic
 
 # Steps for project execute
 
-(1) Install Opencv
+(1) Install Opencv <br />
         pip install opencv-python
 
-(2) Set 'dnn_model' folder as follows. 
-    (Download needed resources.)
-        yolov4.cfg
-        yolov4.weights
-        classes.txt
-
-(4) Run object_tracking_v1.py
+(2) Set 'dnn_model' folder as follows. <br />
+    (Download needed resources). <br />
+    dnn_model <br />
+    |-- yolov4.cfg <br />
+    |-- yolov4.weights <br />
+    |-- classes.txt <br />
+       
+(4) Run object_tracking_v1.py <br />
